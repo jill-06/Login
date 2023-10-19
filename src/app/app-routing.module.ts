@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: "register",
     component: RegisterComponent
+  },
+   {
+    path:'explore/:name',
+    loadChildren:()=> import('./explore/explore.module').then(n=>n.ExploreModule)
   }
 ];
 

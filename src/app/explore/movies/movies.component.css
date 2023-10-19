@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  margin-left: 220px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.kebab {
+  width: 15px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+}
