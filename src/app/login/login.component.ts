@@ -1,22 +1,25 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, NO_ERRORS_SCHEMA, OnInit } from "@angular/core";
 
 
 @Component({
     selector: 'login',
     templateUrl: './login.component.html',
-    styleUrls: ['./login.component.css']
+    styleUrls: ['./login.component.css'],
+   
 })
 
-export class LoginComponent implements OnInit{
+export class LoginComponent {
     
    
 
     constructor(
        
-            ){}
-    ngOnInit(): void {
-        console.log('Login');
+            ){
+                console.log('Login c')
+            }
+   
+            
         
-    }
+    
     
 }
